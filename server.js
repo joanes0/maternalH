@@ -23,7 +23,7 @@ app.get('/', (req, res)=>{
 app.post('/', (req, res)=>{
     console.log(req.body);
 
-  res.sendFile(__dirname+ '/public/final.html');
+  res.sendFile(__dirname+ '/final.html');
 });
 
 
