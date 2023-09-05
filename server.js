@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 
 app.use(express.json()); 
 app.use(express.urlencoded());
-app.use(express.static('public'));
+app.use(express.static('maternalH'));
 
 
 //// API ROUTES
@@ -23,7 +23,7 @@ app.get('/', (req, res)=>{
 app.post('/', (req, res)=>{
     console.log(req.body);
 
-  res.sendFile(__dirname+ '/final.html');
+  res.sendFile(__dirname+ '/public/final.html');
 });
 
 
