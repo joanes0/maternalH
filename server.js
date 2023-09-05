@@ -29,7 +29,6 @@ app.post('/', (req, res)=>{
 
 
 
-
 // app.post("/", function(req, res){
 //     let newNote = new Note({
 //         title: req.body.title,
