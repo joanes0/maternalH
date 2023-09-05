@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Prenatal Care App</title>
+    
+
+  </head>
+  <body>
+
+    <!--header-->
+
+<div class="container-fluid" id="body">
+
+    <header>
+        <h1>Mama Care App</h1>
+    </header>
+
+      <!--Main-->
+
+    <main id="body">
+
+        <div class="landing" >
+            <h1 class="my-4">Mama Care App</h1>
+            <p class="lead">Mama Care App focuses on improving access to paternal care for women accross the globe and 
+                remote areas by providing telemedicine consultations and educational resources among othes.</p>
+            <hr class="my-4">
+            <p>Check on the links for exercises and educational resources</p>
+        </div>
+<!---->
+<!--Section 1 Educational resources-->
+<!---->
+
+        <section class="row " id="education">
+        
+            <div class="col-lg-6">
+                <h2>Educational Resources</h2>  
+                <ul>
+                    <p>You can gett access to some of the workouts during pregnancy by clicking on the link below</p>
+                    <li><a href="https://www.goodhousekeeping.com/health/fitness/a37050658/pregnancy-exercises/">Exercises during Pregnancy</a></li>
+                    <!-- Add more resources -->
+                </ul>
+                <ul>
+                    <p>Nutrition plays a key part in the healh of the infant and the mother, Improve your diet by clicking on the link below</p>
+                    <li><a href="https://aci.health.nsw.gov.au/__data/assets/pdf_file/0010/159805/aci_parenteral_nutrition_pb.pdf">Paternal Nutrition PDF</a></li>
+                    <!-- Add more resources -->
+                </ul>
+                           
+            </div>
+            <div class="col-lg-6 mg-left">
+                <img src="/images/exercise.png" class="imagedR" alt="">  
+            </div>
+     
+        </section>
+
+<!---->
+<!--Section 2 Appointment-->
+<!---->
+
+        <section class="row" id="appointment">
+
+            <div class="col-lg-6">
+                
+                <img src="/images/medical-history-pills.png" class="imagedA" alt="">
+            </div>
+
+            <div class="col-lg-6">
+
+                <h2>Appointment Scheduling</h2>
+                <h3>Enter your preferred Appointment Date and Time:</h3>
+                <div class="col-lg-3">
+                    <label for="">Time</label>
+                    <input type="time" class="form-control" id="appointmentTime" placeholder="ii"/>
+                    <label for="">Date</label>
+                    <input type="date" class="form-control" id="appointmentDate" placeholder="nnn"/>
+                </div>
+                <div class="col-lg-3">
+                    <button id="scheduleAppointment" class="btn btn-outline-success">Schedule</button>
+                </div>
+  
+            </div>
+            
+        </section>
+
+<!---->
+<!--Section 3 Contact-->
+<!---->
+        <section class="row" id="contact">
+
+            <div class="col-lg-6">
+                <h2>Contact Healthcare Provider</h2>
+                <h3>Enter your details and choose an action:</h3>
+                  <form class="form" method="POST" action="/">
+                      <div class="form-group">
+                        <input name="title" type="tel" id="name" class="form-control" placeholder="Enter your full names">
+                      </div>
+                      <div class="form-group">
+                        <input name="number" type="tel" id="phoneNumber" class="form-control" placeholder="Enter your phone number">
+                      </div>
+                      <div class="col-sm-12">
+                        <button id="sendMessage" class="btn btn-outline-info "  >Send Message</button>
+                        <button id="makeCall" class="btn btn-outline-success " >Make Call</button> 
+                      </div>
+                  </form>
+                
+            </div>
+            <div class="col-lg-6">
+                <img src="/images/3d-business-young-doctors-standing-together.png" class="imagedH" alt=""> 
+            </div>
+            
+        </section>
+     
+    </main> 
+<!--footer--->
+    <footer>
+        <p>&copy; 2023 Prenatal Care App</p>
+    </footer>
+
+</div>
+
+    <!--Main body-->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./Js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
