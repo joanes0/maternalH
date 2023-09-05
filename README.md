@@ -1,7 +1,6 @@
 
-Creating a README file for a project related to Maternal Health is essential to provide information to anyone who may be interested in or working with your project. Here's a sample README file for your Maternal Health project:
 
-Maternal Health Project
+### Maternal Health Project
 Overview
 This project focuses on improving maternal health through [briefly describe the purpose or main goals of your project]. The project was initiated during the Maternal Health Hackathon on September 30th.
 
